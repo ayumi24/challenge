@@ -7,9 +7,9 @@
 
 .header-group{
   display: flex;
-  width: 1024px;
   height: 70px;
   background-color: #EC715F;
+  justify-content: space-between;
 }
 
 .logo{
@@ -27,4 +27,9 @@
   font-size: 16px;
   padding: 0 30px;
   list-style: none;
+}
+
+.nav-list a{
+  color: #FAFAFA;
+  text-decoration: none;
 }
