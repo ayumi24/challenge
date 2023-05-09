@@ -9,10 +9,13 @@
   margin: 0 auto;
 }
 
+header{
+  background-color: #EC715F;
+}
+
 .header-group{
   display: flex;
   height: 70px;
-  background-color: #EC715F;
   justify-content: space-between;
 }
 
@@ -46,4 +49,15 @@
   background-image: url(./img/mv.png);
   background-size: cover;
   background-position: center;
+}
+
+.mv-title{
+  padding-top: 200px;
+  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mv-text{
+  padding-top: 10px;
+  font-size: 20px;
 }
