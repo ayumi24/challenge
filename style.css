@@ -61,3 +61,19 @@ header{
   padding-top: 10px;
   font-size: 20px;
 }
+
+#portfolio{
+  background-color: #ECEFF1;
+}
+
+.portfolio-title{
+  font-size: 32px;
+  color: #000;
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.portfolio-text{
+  text-align: center;
+}
