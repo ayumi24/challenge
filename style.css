@@ -63,10 +63,6 @@ header{
   font-size: 20px;
 }
 
-#portfolio{
-  background-color: #ECEFF1;
-}
-
 .heading{
   font-size: 32px;
   color: #000;
@@ -133,4 +129,25 @@ header{
 
 i{
   font-size: 60px;
+}
+
+.profile-group{
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.left-content{
+  width: 50%;
+}
+
+.fase{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(./img/my-icon.jpg)
+}
+
+.right-content{
+  width:50%;
 }
