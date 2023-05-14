@@ -158,3 +158,8 @@ i{
   display: flex;
   padding: 30px 0 90px 0;
 }
+
+.right-content i{
+  font-size: 50px;
+  margin: 20px;
+}
