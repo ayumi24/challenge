@@ -73,6 +73,8 @@ header{
 
 .heading-text{
   text-align: center;
+  padding-top: 30px;
+  font-size: 16px;
 }
 
 .photo-group{
@@ -150,4 +152,9 @@ i{
 
 .right-content{
   width:50%;
+}
+
+.contact-group{
+  display: flex;
+  padding: 30px 0 90px 0;
 }
