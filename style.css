@@ -71,6 +71,16 @@ header{
   font-family: 'Raleway', sans-serif;
 }
 
+/*headingの後ろに付ける擬似要素*/
+.heading::after{
+  content: ""; /*表示したいのは下線である為""のみ記述*/
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
 .heading-text{
   text-align: center;
   padding-top: 30px;
