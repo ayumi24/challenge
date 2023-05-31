@@ -187,7 +187,7 @@ footer{
   color: #FAFAFA;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   header{
     width: 90%;
     height: 50px;
@@ -197,9 +197,29 @@ footer{
     height: 50px;
   }
 
+  .menu-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FAFAFA;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   .list-bar{
     display: block;
     width: 25px;
+    height: 2px;
+    margin: 5px auto;
     background-color: #FAFAFA;
+  }
+
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+
+  .nav-list{
+    display: none;
   }
 }
