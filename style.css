@@ -222,4 +222,39 @@ footer{
   .nav-list{
     display: none;
   }
+
+  #mv{
+    width: 90%;
+    background-image: url(./img/code.png);
+  }
+
+  .mv-title{
+    font-size: 40px;
+  }
+
+  .mv-text{
+    font-size: 18px;
+  }
+
+  #portfolio{
+    width: 90%;
+  }
+
+  .photo-group{
+    width: 300px;
+  }
+
+  .sp-none{
+    display: none;
+  }
+
+  #feature{
+    background-size: cover;
+    background-position: center;
+  }
+
+  .strength-group{
+    flex-flow: row wrap;
+    width: 320px;
+  }
 }
