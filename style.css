@@ -257,4 +257,8 @@ footer{
     flex-flow: row wrap;
     width: 320px;
   }
+
+  .profile-group{
+    flex-flow: row wrap;
+  }
 }
